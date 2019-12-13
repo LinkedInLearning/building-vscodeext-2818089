@@ -1,0 +1,21 @@
+{
+    "name": "ray-light",
+    "displayName": "Ray Light",
+    "description": "A light and easy to use theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ray Light",
+                "uiTheme": "vs",
+                "path": "./themes/Ray Light-color-theme.json"
+            }
+        ]
+    }
+}
