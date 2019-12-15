@@ -3,7 +3,8 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#ebe8e4",
-		"editor.foreground": "#333333"
+		"editor.foreground": "#333333",
+		"editor.selectionBackground": "#d8CFB6"
 	},
 	"tokenColors": [
 		{
@@ -329,6 +330,13 @@
 			"scope": "markup.heading",
 			"settings": {
 				"foreground": "#AA3731"
+			}
+		},
+		{
+			"name": "Markup: Heading 2",
+			"scope": "heading.2.markdown",
+			"settings": {
+				"foreground": "#02866a"
 			}
 		},
 		{
