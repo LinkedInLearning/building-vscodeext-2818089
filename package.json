@@ -2,6 +2,7 @@
     "name": "ray-light",
     "displayName": "Ray Light",
     "description": "A light and easy to use theme",
+    "publisher": "r-villalobos",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.41.0"
