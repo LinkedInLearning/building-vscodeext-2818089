@@ -8,7 +8,8 @@
         "vscode": "^1.41.0"
     },
     "categories": [
-        "Themes"
+        "Themes",
+        "Snippets"
     ],
     "contributes": {
         "themes": [
@@ -21,6 +22,12 @@
                 "label": "Ray Light Alternate",
                 "uiTheme": "vs",
                 "path": "./themes/Ray Light Alternate-color-theme.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
             }
         ]
     }

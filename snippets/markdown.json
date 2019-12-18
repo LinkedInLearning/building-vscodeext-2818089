@@ -1,0 +1,51 @@
+{
+  "Slide": {
+    "prefix": [
+      "rv-slide"
+    ],
+    "body": [
+      "---\n",
+      "# $1\n",
+      "- ${2:item}\n\n",
+      "> > Author Notes:\n",
+      "${3: Some invisible notes}\n\n"
+    ],
+    "description": "A slide with a list of items"
+  },
+  "Slide Title": {
+    "prefix": "rv-slide-title",
+    "body": [
+      "---",
+      "",
+      "<!-- .slide: data-state=\"title\" -->",
+      "",
+      "# RayVeal",
+      "",
+      "## Opinionated Reveal.js",
+      "",
+      "A markdown first presentation framework. Based on reveal.js with preinstalled plugins, a dash of Bootstrap and sweet extras.",
+      "",
+      ""
+    ],
+    "description": "A title slide"
+  },
+  "Slide Title Gray Background": {
+    "prefix": [
+      "rv-slide-title-gray"
+    ],
+    "body": [
+      "---",
+      "",
+      "<!-- .slide: data-state=\"title\" class=\"bg-dark text-warning\" -->",
+      "",
+      "# Features",
+      "",
+      "> > Author Notes:",
+      "",
+      "Some invisible notes",
+      "\t",
+      ""
+    ],
+    "description": "Slide title with a dark gray background"
+  }
+}
