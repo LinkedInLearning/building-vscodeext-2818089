@@ -9,9 +9,20 @@
     },
     "categories": [
         "Themes",
-        "Snippets"
+        "Snippets",
+        "Other"
+    ],
+    "main": "./code/scripts.js",
+    "activationEvents": [
+        "onCommand:doSomething"
     ],
     "contributes": {
+        "commands": [
+            {
+                "command": "doSomething",
+                "title": "Show something in a window"
+            }
+        ],
         "themes": [
             {
                 "label": "Ray Light",
