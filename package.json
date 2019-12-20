@@ -14,13 +14,18 @@
     ],
     "main": "./code/scripts.js",
     "activationEvents": [
-        "onCommand:doSomething"
+        "onCommand:doSomething",
+        "onCommand:openTerminal"
     ],
     "contributes": {
         "commands": [
             {
                 "command": "doSomething",
                 "title": "Show something in a window"
+            },
+            {
+                "command": "openTerminal",
+                "title": "Open a terminal"
             }
         ],
         "themes": [

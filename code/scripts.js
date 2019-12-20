@@ -9,6 +9,14 @@ function activate(context) {
   })
 
   context.subscriptions.push(disposable)
+
+  let term = vscode.commands.registerCommand('openTerminal', function() {
+    let terminal = vscode.window.createTerminal({name: 'My terminal'});
+    terminal.show();
+    terminal.sendText('git status');
+  })
+
+
 }
 exports.activate = activate;
 
